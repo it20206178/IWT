@@ -1,0 +1,363 @@
+
+<!-- IT20118372 -->
+<!-- kaushalya m.k.b.--->
+<!-- Group number:  MLB_PG.03.01_07 -->
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	<title>My Game Site : Home page</title>   <!-- add a title details-->
+		<link rel="stylesheet" href="../CSS/kaw.css">
+		
+		<script>
+		   alert ("You are visiting to Home Page. click 'ok' to continue");   <!-- add a internal script for give a alert-->
+		</script>
+		
+		
+		<script src="../js/gamescript.js">         <!-- add a link to gamescript.js-->
+		</script>
+		
+		
+		<script>
+               document.write(Date());         <!-- add internal script for display the time and the date-->
+		</script>
+		
+		
+		
+		
+	</head>  	<!--end of the title-->
+
+
+	
+	
+	
+<!--open body--> 
+<body class="bg">   <!--connect with .css file-->
+
+<table border="0">   <!--create a table for head-->
+<tr>
+<td>
+	<img class="logo" src="../images/kani.png"width="130" height="130" alt="gaming" align="left"><br>   <!--add a web side logo-->
+</td>
+
+
+
+
+<!-- add buttons-->
+<td>
+
+   <a href="login.html"> <button class="button button1"  >Log in</button></a><br>    <!--add button for log in--> 
+   <a href="signup.html"> <button class="button button2"  >Sign Up</button> </a>         <!--add a button for sing up-->
+</td>
+
+
+
+
+<!-- add website name-->
+
+<td>
+	<center>
+	<h1 class="font1" style="font-size: 45px"><b>Kid Games<b></h1>
+	<h3 class="font2">The Online Kid Game Center</h3>
+</td>
+</tr>
+</table>
+	
+
+
+
+	
+<center>
+
+	<!--add navigation bar details-->
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="news.html">News</a>
+  <a href="new_game.html">New games</a>
+  <a href="oldgame.html">Old games</a>
+   <a href="contact_us.php">Contact Us </a>
+  <input type="text" placeholder="Search..">
+</div>
+<br>
+<h2><a href="profile.php"> Click here to view Profiles</a></h2>
+</center>
+
+	
+
+<!-- create a table-->
+<!-- add buttons-->
+<table border="0" width="100%">
+<tr>
+<td width="20%" align="center">
+  <a href="category.html"><button class="button button3">Top Games   </button> </a><br><br>  
+  <a href="category.html"><button class="button button3" >Reading Games</button></a><br><br>
+  <a href="category.html"><button class="button button3" >Science Games</button></a><br><br>
+  <a href="category.html"><button class="button button3" >Maths Games</button></a><br><br>
+  <a href="category.html"><button class="button button3">Music Games</button></a><br><br>
+  <a href="category.html"><button class="button button3">Spanish Games</button></a><br><br>
+  <a href="category.html"><button class="button button3" >Hard Games</button></a><br><br>
+
+<!-- add a drop down button-->
+<div class="button3" style="width:200px;">
+  <select>
+    <a href="category.html">  <option value="0">Select Games:</option>
+    <a href="category.html">  <option value="1">Shooting Games</option>
+    <a href="category.html">  <option value="2">Art Games</option>
+     <a href="category.html"> <option value="3">Car Games</option>
+     <a href="category.html"> <option value="4">Card Games</option>
+  </select>
+</div>
+<br>
+</td>
+
+
+<!-- add images to home page-->
+<td align="center">
+<a href="category.html"> <img src="../images/hard.jpg" width="200" height="260"></a>
+<figcaption>Hard Games</figcaption>
+
+<a href="category.html"> <img src="../images/maths.png" width="200" height="260"></a>
+<figcaption>Maths Games</figcaption>
+</td>
+
+<td align="center">
+<a href="category.html"> <img  src="../images/top.jpg" width="200" height="260"></a>
+<figcaption>Top Games</figcaption>
+
+<a href="category.html"><img src="../images/music.jpg" width="260" height="200"></a>
+<figcaption>Music Games</figcaption>
+</td>
+
+<td align="center">
+<a href="category.html"><img src="../images/reading.jpg" width="260" height="200"></a>
+<figcaption>Reading Games</figcaption>
+
+<a href="category.html"><img src="../images/science.jpg" width="260" height="200"></a>
+<figcaption>Science Games</figcaption>
+</td>
+</tr>
+</table>
+
+
+	
+	<hr class="hrcolour"><hr class="hrcolour">
+	<br>
+
+<center>	
+<h2> Click the buttons to get the brief idea about relevant topics...</h2>
+</center>
+
+
+<!-- add a buttons--><!-- it will connect with gamescript.js file-->
+<center>
+<div class="Newslayout">
+<button class="bttal" type="button" id="button1" onclick="loadData1('button1')"> Why kids need "Maths" games.. </button>
+<button class="bttal" type="button" id="button2" onclick="loadData1('button2')"> Why kids need "Reading" games..</button>
+<button class="bttal" type="button" id="button3" onclick="loadData1('button3')"> Why kids need "Music" games.. </button>
+<button class="bttal" type="button" id="button4" onclick="loadData1('button4')"> Why kids need "Science" games..</button>
+<button class="bttal" type="button" id="button4" onclick="loadData1('button5')"> About top games</button>
+<button class="bttal" type="button" id="button4" onclick="loadData1('button6')">Brief Idea abut kid games </button>
+
+<img id="img1" src="">
+<p class="text1" id="para"> </p>
+
+
+	
+	<hr class="hrcolour"><hr class="hrcolour">
+	<br>
+	
+
+
+<!-- add a paragraph-->
+
+<p><h2>Kids are natural-born game players. Ask them to pick up their socks, and they’ll whine and cry and act like you demanded them to move 
+boulders. But turn it into a game <i>(who can do it the fastest)</i>, and you’ll see socks in drawers in no time.<h2></p>
+<p ><h2 style="color: blue">Playing games is the perfect antidote for boredom. We all do it. Whether it’s logging on to computer Solitaire instead of working or folding a paper football during a droning lecture or 
+mounting a family board game on a rainy Saturday, games are part of our lives and probably have been since the first cave kid threw a rock and her brother tried to throw one farther. 
+Not all games need to be competitive, though. The cooperative kind can be just as fun (not to mention edifying).</h2></p>
+<p><h2  style="color: yellow">Though you’ll find aisles and aisles of games at toy stores—from card games and board games to computer games on handheld gadgets, computers, and home entertainment systems—you can get all
+the benefits of a good game with everyday objects hanging around your house. <i>If you involve kids in making the games or set them loose and let them try it themselves, they’ll be more 
+invested in playing and just might have more fun. Plus, making and playing games at home have some hidden benefits.</i></h2></p>
+
+<br>
+
+<hr class="hrcolour"><hr class="hrcolour">
+	<br>
+  
+
+<table>
+<tr>
+<td>
+
+   <h4> Click the "DOWNLOAD GAMES" button to see the games that can be downloaded.</h4>
+    <a href="Download games.html"><button class="button button2"  >DOWNLOAD GAMES</button></a>          <!--add a button for download games-->
+</td>
+
+
+<td>
+
+   <a href="Download games.html"><img src="../images/dwnld123.gif" width="250" height="100"></a>
+
+</td>
+
+<td>
+
+  <img src="../images/looking.gif" width="100" height="100">
+
+</td>
+
+
+<td>
+
+   <a href="online play.html"><img src="../images/play123.gif" width="250" height="75"></a>
+
+</td>
+
+<td>
+
+   <h4> Click the "ONLINE PLAY" button to see the games that can be play online.</h4>
+    <a href="online play.html"><button class="button button2">ONLINE PLAY  </button> </a>         <!--add a button for online play-->
+</td>
+
+
+</table>
+
+
+
+	<hr class="hrcolour"><hr class="hrcolour">
+	<br>
+	
+	<h2>TODAY'S OFFERS...!</h2>
+	<p><h3>Gifting and exchange are a component of almost every social interaction. This is even apparent in the way you greet your colleagues in the morning.
+	If you see someone for the first time in the day that you work with then you are obliged say hello. 
+	They, in turn, are obliged to acknowledge your greeting and respond. If you barely know each other the exchange is short and perfunctory:
+	“hey”, “hey”. If you know each other better, it might spawn a longer conversation or at the very least require more conviction.
+	</h3>
+	</p>
+	<center>
+	<h3 style="color: blue"> Click the gift icon to see your gifts...!!!</h3>
+	
+    <a href="Today's_offers.html"><img src="../images/gift.gif" width="260" height="200"></a>
+	</center>
+	
+	<hr class="hrcolour"><hr class="hrcolour">
+	<br>
+
+<br>	
+	<h2 style="color: yellow"> International Games...!</h2><br>
+	<h3>Click on this Image</h3>
+	
+	
+    <a href="international_games.html"><img src="../images/international.jpg" width="260" height="200"></a>
+
+
+	
+	<hr class="hrcolour"><hr class="hrcolour">
+	<br>
+
+<h2 style="color:purple"> <i>Please cleck on the Visa card icon ( under "we are accept" topic) bellow to make payments....</i></h2>
+
+
+
+<!-- footer details-->
+<hr class="hri">
+	<footer>
+  <div class="footer-gray">
+    <div class="footer-custom">
+      <div class="footer-lists">
+        <div class="footer-list-wrap">
+          <h6 class="ftr-hdr">Watch</h6>
+          <ul class="ftr-links-sub">
+            <li>YouTube</li>
+			<li>IOS App</li>
+			<li>Roku</li>
+          </ul>
+          <h6 class="ftr-hdr">SHOP</h6>
+          <ul class="ftr-links-sub">
+            <li>Apps & eBooks</li>
+            <li>iTunes</li>
+          </ul>
+        </div>
+        
+        <div class="footer-list-wrap">
+          <h6 class="ftr-hdr">ABOUT</h6>
+          <ul class="ftr-links-sub">
+            <li>Contact Us</li>
+            <li>Terms of Use</li>
+            <li>Press Room</li>
+            <li>Privacy Policy</li>
+            <li>Get Our Newsletter</li>
+            <li>Privacy Rights</li>
+           
+          </ul>
+        </div>
+       
+        <div class="footer-list-wrap">
+          <h6 class="ftr-hdr">MORE FOR KIDS</h6>
+          <ul class="ftr-links-sub">
+            <li>Videos For Kids</li>
+			<li>Art</>
+          </ul>
+        </div>
+        <!--/.footer-list-wrap-->
+      </div>
+      <!--/.footer-lists-->
+      
+         <div class="footer-credis">
+        <h6 class="ftr-hdr">we are accepted</h6>
+        <ul>
+          <li>
+            <a href="index.php" title="make payments" onclick="">
+              <img class="visa1" width="150" height="50"  src="../images/visa1.png">
+            </a>
+          </li>
+      
+        </ul>
+      </div>
+      <!--/.footer-credits-->
+      <div class="footer-social">
+        <h6 class="ftr-hdr">Follow Us</h6>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com" title="Facebook" onclick="_gaq.push(['_trackSocial', 'Facebook', 'Follow', 'Footer', 'undefined', 'True']);">
+              <img width="24" height="24" alt="Like us on Facebook" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/fb.png">
+            </a>
+          </li>
+          <li>
+            <a href="https://plus.google.com" title="Google+" onclick="_gaq.push(['_trackSocial', 'GooglePlus', 'Follow', 'Footer', 'undefined', 'True']);">
+              <img width="24" height="24" alt="Follow us on Google+" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/gplus.png">
+            </a>
+          </li>
+          <li>
+            <a href="https://pinterest.com" target="_blank">
+              <img width="24" height="24" alt="Follow us on Pinterest" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/pin-badge.png">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://instagram.com">
+              <img width="24" height="24" alt="Follow us on Instagram" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/instagram-badge.png">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" title="Twitter" onclick="_gaq.push(['_trackSocial', 'Twitter', 'Follow', 'Footer', 'undefined', 'True']);">
+              <img width="67" alt="Follow us on Twitter" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/twitter.png">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--/.footer-social-->
+      <div class="footer-legal">
+        <p>&copy; Kid_games.com Inc. All Rights Reserved. </p>
+        <p>@kidgames@gmail.com</p>
+        
+      </div>
+    </div>
+    <!--/.footer-custom-->
+  </div>
+  <!--/.footer-gray-->
+</footer>
+</body>
+</html>
